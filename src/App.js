@@ -9,12 +9,12 @@ import "./style.css";
 const App = () => {
   return (
     <div className="todo-container"> 
-    <Header />
-    <TodoItem />
-    <TodoItem />
-    <TodoItem />
-    <TodoItem />
-    <TodoItem />
+    <Header title="Todoie"/>
+    <TodoItem text="Eat" />
+    <TodoItem completed={true} text="Code"/>
+    <TodoItem text="Play" />
+    <TodoItem text="Study" />
+    <TodoItem text="Sleep" />
     <Button />
     </div>
   );
